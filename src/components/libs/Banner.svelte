@@ -37,19 +37,8 @@
     margin-top: 100px;
     text-transform: uppercase;
   }
-
-  .watch-btn {
-    margin: auto 20px;
-    position: relative;
-    top: 8px;
-  }
-
-  section a {
-    text-decoration: none;
-  }
-
-  /* .wave-img {
-      width: 100%;
-      height: auto;
-    } */
+p{
+  font-weight: 300;
+}
+ 
 </style>
