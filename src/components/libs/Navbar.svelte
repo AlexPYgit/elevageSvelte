@@ -8,7 +8,7 @@
 <section>
   <nav id="nav-bar" class="navbar bg-light fixed-top  navbar-expand-lg ">
     <div class="container-fluid">
-      <a class="navbar-brand company_brand" href="/">
+      <a id="title" class="navbar-brand company_brand" href="/">
         {title}
       </a>
       <button
@@ -36,13 +36,14 @@
 </section>
 
 <style>
+  
   #nav-bar {
     background-color: rgba(248, 247, 242, 0.774);
     font-size: 1rem;
     font-weight: 600;
   }
   #nav-bar a {
-    color: rgb(255, 196, 0);
+    color: red;
     font-size: 2rem;
   }
 

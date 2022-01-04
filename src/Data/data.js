@@ -1,5 +1,5 @@
 /**src/Data/data.js**/
-const TITLE_SITE = "Les Petits Pom'KA";
+const TITLE_SITE = "Les Petits Pom'KA ";
 
 const NAVBAR_DATA = [
   { id: 1, url: "/", label: "Accueil" },
@@ -15,20 +15,20 @@ const BANNER_DATA = {
 };
 const CHIOTS = [
   {
-    id: 1,
+    id: 2,
     name: "Samouraï",
-    image_url_1: "images/chiots/samourai/samourai 1.jpg",
-    image_url_2: "images/chiots/samourai/samourai 2.jpg",
-    image_url_3: "images/chiots/samourai/samourai 3.jpg",
+    image_url_1: "images/chiots/Samourai/Samourai 1.jpg",
+    image_url_2: "images/chiots/Samourai/Samourai 2.jpg",
+    image_url_3: "images/chiots/Samourai/Samourai 2.jpg",
     description: "petit chien roux",
     alt: "...",
   },
   {
-    id: 2,
+    id: 1,
     name: "Gey!",
     image_url_1: "images/chiots/Slam/Slam 1.jpg",
     image_url_2: "images/chiots/Slam/Slam 2.jpg",
-    image_url_2: "images/chiots/Slam/Slam 2.jpg",
+    image_url_3: "images/chiots/Slam/Slam 2.jpg",
     description: "petit chien roux",
     alt: "...",
   },
@@ -37,7 +37,7 @@ const CHIOTS = [
     name: "Foulecamp",
     image_url_1: "images/chiots/Swing/Swing 1.jpg",
     image_url_2: "images/chiots/Swing/Swing 2.jpg",
-    image_url_2: "images/chiots/Swing/Swing 2.jpg",
+    image_url_3: "images/chiots/Swing/Swing 2.jpg",
     description: "petit chien roux",
     alt: "...",
   },

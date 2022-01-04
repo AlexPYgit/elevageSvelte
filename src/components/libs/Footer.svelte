@@ -15,6 +15,9 @@
         background-color:rgb(215, 220, 221);
         margin-top: 60px;
     }
+    h1{
+        color:red;
+    }
 
 
 </style>
