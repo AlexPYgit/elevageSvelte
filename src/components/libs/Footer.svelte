@@ -12,11 +12,11 @@
 <style>
     #footer{
         height:200px;
-        background-color:rgb(215, 220, 221);
+        background-color:var(--brown);
         margin-top: 60px;
     }
     h1{
-        color:red;
+        color:var(--orange);
     }
 
 

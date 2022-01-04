@@ -37,6 +37,8 @@
   </main>
 
   <!-- Création d'élément -->
+
+
   <History />
 
   <footer>
@@ -45,16 +47,22 @@
 </Router>
 
 <style>
+/* Varibles */
 *{
-  --Style:red;
+	--green:#30736C;
+	--orange:#bf702a;
+	--egg-shell:#f6ecec;
+	--red:#cc260c;
+	--brown:#590202;
+	--font-titre:'Playfair Display', serif;
+  --font-sub-title:'Montserrat Alternates', sans-serif;
+  --font-text:'Montserrat Alternates', sans-serif;
 }
 
   main {
     text-align: center;
     margin: 0 auto;
   }
- 
-
 
   @media (min-width: 640px) {
     main {

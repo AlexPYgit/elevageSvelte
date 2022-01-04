@@ -6,7 +6,8 @@
 	--red:#cc260c;
 	--brown:#590202;
 	--font-titre:'Playfair Display', serif;
-
+  --font-sub-title:'Montserrat Alternates', sans-serif;
+  --font-text:'Montserrat Alternates', sans-serif;
 }
 
 html, body {
@@ -23,9 +24,21 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
+h1{
+	font-family: var(--font-titre);
+}
+
+h2,h3,h4{
+	font-family: var(--font-sub-title);
+}
+p{
+	font-family: var(--font-text);
+}
+
 a {
 	color: var(--green);
 	text-decoration: none;
+	font-family: var(--font-text);
 }
 
 a:hover {

@@ -1,7 +1,7 @@
 <!--src/Components/Banner/Banner.svelte-->
 <script>
   export let bannerData = {};
-  const { HEADING, DECRIPTION, TUTORIAL_URL, WATCH_TUTORIAL } = bannerData;
+  const { HEADING, DECRIPTION } = bannerData;
 </script>
 
 <!------------------------------------------->

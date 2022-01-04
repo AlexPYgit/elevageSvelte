@@ -6,7 +6,7 @@
 </script>
 
 <section>
-  <nav id="nav-bar" class="navbar bg-light fixed-top  navbar-expand-lg ">
+  <nav id="nav-bar" class="navbar  fixed-top  navbar-expand-lg ">
     <div class="container-fluid">
       <a id="title" class="navbar-brand company_brand" href="/">
         {title}
@@ -26,7 +26,7 @@
         <ul class="navbar-nav ml-auto">
           {#each navlists as list}
             <li class="nav-item">
-              <Link class="nav-link " to={list.url}>{list.label}</Link>
+              <Link style="font-family:var(--font-sub-title);color:var(--orange);" class="nav-link " to={list.url}>{list.label}</Link>
             </li>
           {/each}
         </ul>
@@ -36,15 +36,18 @@
 </section>
 
 <style>
+  nav{
+    background-color: var(--egg-shell);
+  }
   
   #nav-bar {
-    background-color: rgba(248, 247, 242, 0.774);
     font-size: 1rem;
     font-weight: 600;
   }
   #nav-bar a {
-    color: red;
+    color: var(--orange);
     font-size: 2rem;
+    font-family: var(--font-titre);
   }
 
   .navbar {
